@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>RAYZ — Ultra Smooth Scroll</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<div class="noise"></div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top"><img src="assets/rayz-logo-white.png" alt="RAYZ"></a>
+  <nav>
+    <a href="#collection">Collection</a>
+    <a href="#craft">Craft</a>
+    <a href="#story">Story</a>
+    <a href="#campaigns">Campaigns</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="explore" href="#collection">Explore RAYZ <span>↗</span></a>
+  <a class="buy-nav" href="#contact">BUY NOW <span>↗</span></a>
+  <button class="menu" id="menu" aria-label="Open menu"><i></i><i></i></button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#collection">Collection</a>
+  <a href="#craft">Craft</a>
+  <a href="#story">Story</a>
+  <a href="#campaigns">Campaigns</a>
+  <a href="#feedback">Feedback</a>
+  <a href="#contact">Contact</a>
+  <a class="mobile-buy" href="#contact">BUY NOW ↗</a>
+</div>
+
+<main>
+<section class="cinema" id="top">
+  <div class="sticky">
+    <div class="ambient back"></div>
+    <div class="ambient front"></div>
+
+    <div class="media-wrap" id="mediaWrap">
+      <div class="media" id="media">
+        <canvas id="heroCanvas" width="960" height="540"></canvas>
+        <div class="vignette"></div>
+        <div class="sheen"></div>
+      </div>
+    </div>
+
+    <div class="intro copy">
+      <span class="eyebrow">RAYZ / 001</span>
+      <h1><span>THE</span><span>FRAME</span><span>HAS ARRIVED.</span></h1>
+      <p>Scroll through the complete story.</p>
+      <a class="hero-buy" href="#contact">BUY NOW <span>↗</span></a>
+    </div>
+
+    <div class="beat a copy"><span class="eyebrow">01 / OBJECT</span><h2>Engineered<br><em>in silence.</em></h2></div>
+    <div class="beat b copy"><span class="eyebrow">02 / DETAIL</span><h2>Every angle<br><em>intentional.</em></h2></div>
+    <div class="beat c copy"><span class="eyebrow">03 / PRESENCE</span><h2>Wear the<br><em>difference.</em></h2></div>
+    <div class="beat d copy"><span class="eyebrow">04 / RAYZ</span><h2>Make the<br><em>entrance.</em></h2></div>
+
+    <div class="final-lock" id="finalLock">
+      <span>RAYZ</span>
+      <strong>THE FRAME.<br>THE PRESENCE.</strong>
+    </div>
+
+    <div class="hud">
+      <span id="chapter">01</span>
+      <div class="track"><i id="progress"></i></div>
+      <span id="frameReadout">001 / 300</span>
+    </div>
+    <div class="scroll-hint">SCROLL <i></i></div>
+  </div>
+</section>
+
+<section class="editorial light" id="collection">
+  <div class="inner parallax" data-speed=".10"><span class="eyebrow">01 / COLLECTION</span><h2>Objects that<br><em>hold attention.</em></h2><p>RAYZ turns eyewear into an architectural detail — precise, restrained and impossible to overlook.</p></div>
+</section>
+
+<section class="product-gallery" aria-label="RAYZ eyewear collection">
+  <div class="product-gallery-head">
+    <div><span class="eyebrow">RAYZ / THE COLLECTION</span><h2>See the frame.<br><em>See the finish.</em></h2></div>
+  </div>
+  <div class="product-grid">
+    <article class="product-card product-card-wide tilt-card"><div class="product-image"><img src="assets/products/rayz-collection-01-graded.jpg" alt="RAYZ eyewear collection lineup" loading="lazy"></div><div class="product-label"><span>01 / COLLECTION</span><strong>Five frames. One point of view.</strong></div></article>
+    <article class="product-card tilt-card"><div class="product-image"><img src="assets/products/rayz-signature-graded.jpg" alt="RAYZ signature sunglasses with case" loading="lazy"></div><div class="product-label"><span>02 / SIGNATURE</span><strong>The frame, up close.</strong></div></article>
+    <article class="product-card tilt-card"><div class="product-image"><img src="assets/products/rayz-lifestyle-graded.jpg" alt="RAYZ sunglasses and protective case" loading="lazy"></div><div class="product-label"><span>03 / EVERYDAY</span><strong>Designed to leave an impression.</strong></div></article>
+    <article class="product-card product-card-wide tilt-card"><div class="product-image"><img src="assets/products/rayz-collection-color-graded.jpg" alt="RAYZ eyewear range" loading="lazy"></div><div class="product-label"><span>04 / RANGE</span><strong>Different silhouettes. Same attitude.</strong></div></article>
+  </div>
+</section>
+
+<section class="editorial dark" id="craft">
+  <div class="inner parallax" data-speed=".16"><span class="eyebrow">02 / CRAFT</span><h2>Precision<br><em>without noise.</em></h2></div>
+</section>
+
+<section class="packaging-showcase" aria-label="RAYZ packaging">
+  <div class="packaging-copy parallax" data-speed=".08"><span class="eyebrow">RAYZ / THE EXPERIENCE</span><h2>It starts<br><em>before you wear it.</em></h2><p>The case, box and small details are part of the same visual language — matte black, restrained typography and a deliberate reveal.</p></div>
+  <div class="packaging-visuals">
+    <figure class="pack-shot pack-shot-main"><img src="assets/products/rayz-packaging-open-graded.jpg" alt="RAYZ premium eyewear packaging opened" loading="lazy"><figcaption>01 / OPEN THE BOX</figcaption></figure>
+    <figure class="pack-shot pack-shot-detail"><img src="assets/products/rayz-packaging-detail-graded.jpg" alt="RAYZ packaging exterior and details" loading="lazy"><figcaption>02 / EVERY DETAIL</figcaption></figure>
+  </div>
+</section>
+
+<section class="editorial light" id="story">
+  <div class="inner parallax" data-speed=".10"><span class="eyebrow">03 / STORY</span><h2>Designed for<br><em>the next frame.</em></h2></div>
+</section>
+
+<section class="signature-story" aria-label="RAYZ signature frame">
+  <div class="signature-image"><img src="assets/products/rayz-collection-02-graded.jpg" alt="RAYZ eyewear collection photographed on contrasting studio background" loading="lazy"></div>
+  <div class="signature-copy parallax" data-speed=".10"><span class="eyebrow">RAYZ / 003</span><h2>Different light.<br><em>Same presence.</em></h2><p>From clear optical frames to statement sunglasses, every silhouette carries the same RAYZ attitude.</p><span class="signature-line">CLEAR VISION / BOLDER TOMORROWS</span></div>
+</section>
+
+<section class="ads" id="campaigns" aria-label="RAYZ campaigns">
+  <div class="ads-head">
+    <div>
+      <span class="eyebrow">04 / CAMPAIGNS</span>
+      <h2>See RAYZ<br><em>in motion.</em></h2>
+    </div>
+    <span class="ads-count">02 FILMS <i></i> RAYZ EYEWEAR</span>
+  </div>
+  <div class="ads-grid">
+    <!-- WhatsApp video: continuous autoplay + loop, with pause/play control -->
+    <article class="ad-film ad-film-b" aria-label="RAYZ campaign film two">
+      <div class="ad-media">
+        <video class="ad-video" src="assets/ads/rayz-ad-02.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <span class="ad-sheen"></span>
+        <div class="ad-controls" aria-label="Video controls">
+          <button class="ad-play-toggle" type="button" aria-label="Pause film" data-state="playing">
+            <span class="icon-play">▶</span><span class="icon-pause">Ⅱ</span>
+          </button>
+          <button class="ad-sound-toggle" type="button" aria-label="Turn sound on" data-muted="true">
+            <span class="icon-sound-off">⌁</span><span class="icon-sound-on">◖)))</span>
+          </button>
+        </div>
+      </div>
+      <div class="ad-caption">
+        <span>FILM 02 / CONTINUOUS</span>
+        <strong>SEE BEYOND ORDINARY</strong>
+        <a class="ad-drive-link" href="https://drive.google.com/file/d/147H4yvQCE00EzMxvCFWQ8z0HcpNKMqu-/view?usp=sharing" target="_blank" rel="noopener" aria-label="Open film two in Google Drive">OPEN ORIGINAL ↗</a>
+      </div>
+    </article>
+
+    <!-- Other campaign: starts paused and plays only when the visitor presses play -->
+    <article class="ad-film ad-film-a" aria-label="RAYZ campaign film one">
+      <div class="ad-media">
+        <video class="ad-video" src="assets/ads/rayz-ad-01.mp4" loop playsinline preload="metadata"></video>
+        <span class="ad-sheen"></span>
+        <div class="ad-controls" aria-label="Video controls">
+          <button class="ad-play-toggle" type="button" aria-label="Play film" data-state="paused">
+            <span class="icon-play">▶</span><span class="icon-pause">Ⅱ</span>
+          </button>
+          <button class="ad-sound-toggle" type="button" aria-label="Mute film" data-muted="false">
+            <span class="icon-sound-off">⌁</span><span class="icon-sound-on">◖)))</span>
+          </button>
+        </div>
+      </div>
+      <div class="ad-caption">
+        <span>FILM 01 / PLAY ON DEMAND</span>
+        <strong>THE FRAME IN MOTION</strong>
+        <a class="ad-drive-link" href="https://drive.google.com/file/d/1NVyzhVt-3mTFL9qjXcsLga2rkOZDvHff/view?usp=sharing" target="_blank" rel="noopener" aria-label="Open film one in Google Drive">OPEN ORIGINAL ↗</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="feedback" id="feedback">
+  <div class="feedback-top">
+    <div class="feedback-heading parallax" data-speed=".08">
+      <span class="eyebrow">05 / FEEDBACK</span>
+      <h2>Seen through<br><em>your eyes.</em></h2>
+      <p>Five perspectives. One frame. A rotating deck of RAYZ stories.</p>
+    </div>
+    <div class="feedback-meta">05 / 05 <span></span> DRAG / TAP / EXPLORE</div>
+  </div>
+
+  <div class="feedback-stage" id="feedbackStage" aria-live="polite">
+    <div class="feedback-glow"></div>
+    <div class="feedback-stack" id="feedbackStack"></div>
+    <div class="feedback-controls">
+      <button class="feedback-btn" id="feedbackPrev" aria-label="Previous feedback">←</button>
+      <button class="feedback-btn active" id="feedbackNext" aria-label="Next feedback">→</button>
+    </div>
+    <div class="feedback-progress" id="feedbackProgress"></div>
+    <div class="feedback-drag">↔ &nbsp; TURN THE PAGE</div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="inner parallax" data-speed=".08"><span class="eyebrow">06 / RAYZ</span><h2>See you<br>on the other side.</h2><a href="mailto:hello@rayz.example">CONTACT RAYZ ↗</a></div>
+</section>
+
+<footer class="rayz-footer" id="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="footer-logo" href="#top" aria-label="RAYZ home"><img src="assets/rayz-logo-white.png" alt="RAYZ Eyewear"></a>
+      <p>See beyond ordinary.</p>
+    </div>
+
+    <div class="footer-explore">
+      <span class="footer-heading">EXPLORE</span>
+      <div class="footer-links">
+        <div>
+          <a href="#collection">Collection</a>
+          <a href="#craft">Craft</a>
+          <a href="#story">Story</a>
+          <a href="#feedback">Feedback</a>
+        </div>
+        <div>
+          <a href="#collection">Frames</a>
+          <a href="#contact">Contact</a>
+          <a href="#footer">About RAYZ</a>
+          <a href="#top">Back to top ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-loop">
+      <span class="footer-heading">STAY IN THE LOOP</span>
+      <p>New frames. New perspectives.<br>Stay close to RAYZ.</p>
+      <a href="mailto:hello@rayz.example">hello@rayz.example</a>
+      <div class="footer-address">
+        <span>VISIT RAYZ</span>
+        <a href="https://maps.app.goo.gl/hpNrunbRpoGu3ZzGA" target="_blank" rel="noopener">Symbiosis Cherry Blossom (D)<br>Boys Hostel ↗</a>
+      </div>
+      <div class="footer-socials"><a href="#">Instagram</a><span>·</span><a href="#">LinkedIn</a></div>
+    </div>
+  </div>
+
+  <div class="footer-rule"></div>
+  <div class="footer-bottom">
+    <span>© 2026 RAYZ EYEWEAR</span>
+    <div><a href="#">Privacy</a><span>·</span><a href="#">Terms</a></div>
+    <a class="footer-top" href="#top">Back to top <span>↗</span></a>
+  </div>
+</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
